@@ -1,24 +1,24 @@
 #region-main,.card,.block,.list-group-item,.btn-light,.menu,.dropdown-menu,.dropdown-item,.bg-pulse-grey,.empty-icon-container,.overlay-icon-container,div.message-app,div.bg-white,div.bg-light,.popover-region-container,.popover-region-footer-container,.moodle-dialogue-content,.fp-thumbnail,.conversationcontainer,.body-container,.editor_atto_toolbar, .dndupload-target,.editor_atto_content_wrap,.course-summaryitem,.filemanager th.yui3-datatable-header, .filemanager .yui3-datatable-even td.yui3-datatable-cell,.filemanager .yui3-datatable-odd td.yui3-datatable-cell, .modal-content {
-    background-color:#222!important
+    background-color:#080808!important
 }
 body{
     background-image:url('https://raw.githubusercontent.com/Fyelne/Dark-Moodle/main/images/background.png') !important;
 }
 select,select option,body,.mdc-text-field,input,.card-deck,.profile_tree,.message,.preferences-container .preference-table tr th:nth-child(even),.preferences-container .preference-table tr td:nth-child(even),textarea.form-control,.btn-icon:focus,.btn-icon:hover,.path-mod-assign td.submissionnotgraded,.editor_atto_content {
-    background-color:#333!important
+    background-color:#080808!important
 }
 .editor_atto_content::placeholder{
-    content: "Ecrire ici...";
+    content: "";
 }
 .course-summaryitem{
-    border-color: #333 !important;
+    border-color: #080808 !important;
     border-width: 2px !important;
 }
 .editor_atto, button[class^='atto_'] {
     border-radius: 5px !important;
 }
 .dropdown-item:active,.dropdown-item:hover {
-    background-color:#777!important
+    background-color:#080808!important
 }
 .yui3-skin-sam .yui3-datatable-sort-indicator{
     bottom: 0 !important;
@@ -36,7 +36,7 @@ a.popover-region-toggle:focus,p.message,.fp-filename,.list-group-item-action,.dr
     background-color:transparent!important
 }
 .dropdown-item:focus-within,.dropdown-item.active,.btn-secondary:hover,.btn-primary:hover,.btn-secondary:focus,.btn-primary:focus,.nav-items:focus,.nav-items:hover,a:focus,.nav-pills .nav-link.active,.dropdown-toggle,.btn-outline-secondary,span.input-group-text,div.editor_atto_toolbar button:hover, .filemanager .ygtvfocus{
-    background-color:#4e5760!important;
+    background-color:#080808!important;
     background-image: none!important;
     box-shadow:none!important;
 }
@@ -56,13 +56,13 @@ a.popover-region-toggle:focus,p.message,.fp-filename,.list-group-item-action,.dr
     border:none!important
 }
 .dropdown-menu,.popover-region-container,select,div.editor_atto_toolbar button {
-    border:2px solid #6c757d!important;
+    border:2px solid #080808!important;
 }
 .dropdown-menu,.popover-region-container,select{
     padding:0px 0px!important
 }
 .dropdown-item,option{
-    border-bottom:1px solid #6c757d;
+    border-bottom:1px solid #080808;
 }
 #region-main{
     border:none!important
@@ -76,16 +76,16 @@ a.popover-region-toggle:focus,p.message,.fp-filename,.list-group-item-action,.dr
     padding:8px 8px 0px
 }
 a,footer::after{
-    color:#8fd8eb!important;font-weight:600!important
+    color:#080808!important;font-weight:600!important
 }
 .custom-control-input:checked~.custom-control-label::before, .progress-bar{
-    background-color:#8fd8eb!important
+    background-color:#080808!important
 }
 .reveal-password,header,footer,.bg-white,.navbar-bootswatch,.btn-secondary,.btn-primary,.navbar-brand:focus,.navbar-brand:hover,.page-link,.nav-link,#action-menu-toggle-0,div.editor_atto_toolbar button{
-    background-color:#343a40!important
+    background-color:#080808!important
 }
 .btn-primary,.btn-secondary,.border,.page-link{
-    border-color:#343a40!important
+    border-color:#080808!important
 }
 .accesskey,.mdc-floating-label,input,input::placeholder,.dropdown-item,option,.btn-outline-secondary,p,h1,h2,h3,h4,h5,.h6,.dropdown-header,small,span.text-muted,small.text-muted,div.text-muted,div,.btn-secondary,.navbar-brand,th,td,textarea.form-control::placeholder,select,input.form-control,.closebutton,.close,strong,.navbar-bootswatch a i.icon,i.icon,.day, pre{
     color:#eee!important
@@ -112,31 +112,31 @@ input::-moz-placeholder,input::-webkit-input-placeholder{
     box-shadow:none!important
 }
 .path-mod-assign td.submissionstatussubmitted,.path-mod-assign td.earlysubmission{
-    background-color:#019875!important
+    background-color:#080808!important
 }
 .latesubmission{
-    background-color:#88293d!important
+    background-color:#080808!important
 }
 div.border-right{
-    border-right-color:#999!important
+    border-right-color:#080808!important
 }
 div.border-left{
-    border-left-color:#999!important
+    border-left-color:#080808!important
 }
 div.border-top, .modal-footer{
-    border-top-color:#999!important
+    border-top-color:#080808!important
 }
 div.border-bottom, .modal-header{
-    border-bottom-color:#999!important
+    border-bottom-color:#080808!important
 }
 div.border,.mdc-notched-outline__leading,.mdc-notched-outline__notch,.mdc-notched-outline__trailing{
-    border-color:#999!important
+    border-color:#080808!important
 }
 .policiesfooter{
     float: right !important;
 }
 footer::after{
-    content:"Dark Moodle by Fyelne";
+    content:"This iTaleem Page is modified by iTaleeMalam.";
     text-align: center;
     display: block; 
 }
@@ -164,12 +164,12 @@ footer::after{
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #b2b2b2;
+  background: #080808;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
-  background: #777777;
+  background: #080808;
 }
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-track:hover, ::-webkit-scrollbar-track:active {
-  background: #333;
+  background: #080808;
 }
