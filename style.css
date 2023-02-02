@@ -187,3 +187,13 @@ footer::after{
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-track:hover, ::-webkit-scrollbar-track:active {
   background: #080808;
 }
+
+
+ .card {
+    background-color: darken($color: $body-bg-dark, $amount: 2);
+    border: 1px solid darken($color: $body-bg-dark, $amount: 4);
+  }
+
+ #region-main {
+    background: $body-bg-dark;
+    }
