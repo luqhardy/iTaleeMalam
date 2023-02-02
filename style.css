@@ -4,6 +4,9 @@
 body{
     background-image:url('https://images2.alphacoders.com/897/897212.png') !important;
 }
+#page {
+    background-image:url('https://images2.alphacoders.com/897/897212.png') !important;
+}
 #masthead,
 #primary {
   -webkit-filter: invert(100%);
