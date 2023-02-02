@@ -2,7 +2,21 @@
     background-color:#080808!important
 }
 body{
-    background-image:url('https://raw.githubusercontent.com/Fyelne/Dark-Moodle/main/images/background.png') !important;
+    background-image:url('https://images2.alphacoders.com/897/897212.png') !important;
+}
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 select,select option,body,.mdc-text-field,input,.card-deck,.profile_tree,.message,.preferences-container .preference-table tr th:nth-child(even),.preferences-container .preference-table tr td:nth-child(even),textarea.form-control,.btn-icon:focus,.btn-icon:hover,.path-mod-assign td.submissionnotgraded,.editor_atto_content {
     background-color:#080808!important
