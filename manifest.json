@@ -11,7 +11,7 @@
     "description": "A dark mode for iTaleem!",
     "content_scripts": [
         {
-            "css": ["./style.css"],
+            "css": ["./style.css","./yui-moodlesimple-min.css"],
             "matches": ["https://italeemc.iium.edu.my/*"]
         }
     ]
